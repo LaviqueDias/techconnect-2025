@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm py-0 px-5">
@@ -53,7 +54,7 @@
                 <a class="nav-link" href="#inscricoes">Inscrições</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contato">Contato</a>
+                <a class="nav-link" href="#contatos">Contato</a>
               </li>
             </ul>
           </div>
@@ -74,60 +75,96 @@
     </main>
 
     <!-- Feito por Kevyn - Seção Sobre -->
-    <section id="sobre">
-      <h2>Sobre o Evento</h2>
-      <p>
-        O TechConnect 2025 é um evento inovador que reúne entusiastas,
-        profissionais e estudantes de tecnologia para compartilhar experiências,
-        aprender com especialistas e construir conexões valiosas. Com foco em
-        inovação, inclusão e impacto social, o evento promove debates, palestras
-        e oficinas que exploram as tendências e desafios da transformação
-        digital no Brasil e no mundo.
-      </p>
+    <section id="sobre" class="py-5 bg-light position-relative text-dark">
+      <div class="bg-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center">
+    
+          <div class="col-lg-6 mb-3 text-start">
+            <h2 class="mb-4 fw-bold text-uppercase">Sobre o Evento</h2>
+            <p class="lead text-shadow text-justify">
+              O <strong>TechConnect 2025</strong> é um evento inovador que reúne entusiastas,
+              profissionais e estudantes de tecnologia para compartilhar experiências,
+              aprender com especialistas e construir conexões valiosas. Com foco em
+              inovação, inclusão e impacto social, o evento promove debates, palestras
+              e oficinas que exploram as tendências e desafios da transformação
+              digital no Brasil e no mundo.
+            </p>
+          </div>
+    
+          <div class="col-lg-6 text-center">
+            <img src="assets/images/eventos-de-tecnologia.webp" alt="Imagem do Evento"
+              class="img-fluid rounded shadow" />
+          </div>
+    
+        </div>
+      </div>
     </section>
 
     <!-- Feito por David - Seção programação-->
-    <section id="programacao">
-      <h2>Programação do Evento:</h2>
-
-      <table border="1">
-        <tr>
-          <th>Horário</th>
-          <th>Palestrante</th>
-          <th>Painéis e Workshops</th>
-        </tr>
-        <tr>
-          <td>09:00h</td>
-          <td>Prof. Lavique</td>
-          <td>Juventude na TI</td>
-        </tr>
-        <tr>
-          <td>10:00h</td>
-          <td>Prof. Isthanlley</td>
-          <td>Liberdade, Código, Faturamento e Liderança</td>
-        </tr>
-        <tr>
-          <td>11:00h</td>
-          <td>Prof. Kevyn</td>
-          <td>Do Rastreamento Veicular ao Palco Mundial</td>
-        </tr>
-        <tr>
-          <td>12:00h</td>
-          <td>Prof. João Felipe</td>
-          <td>Do Silêncio à Plataforma</td>
-        </tr>
-        <tr>
-          <td>14:00h</td>
-          <td>Prof. Esdras</td>
-          <td>De Relutante em Java a Pioneiro em IA Automotiva</td>
-        </tr>
-        <tr>
-          <td>15:00h</td>
-          <td>Prof. David</td>
-          <td>Programação Após os 30</td>
-        </tr>
-      </table>
+    <section id="programacao" class="py-5 bg-dark">
+      <div class="container">
+        <h2 class="text-center mb-5 fw-bold text-uppercase text-light">Programação do Evento</h2>
+    
+        <div class="row g-4">
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title text-primary">09:00h — Prof. Lavique</h5>
+                <p class="card-text">Juventude na TI</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title text-primary">10:00h — Prof. Isthanlley</h5>
+                <p class="card-text">Liberdade, Código, Faturamento e Liderança</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title text-primary">11:00h — Prof. Kevyn</h5>
+                <p class="card-text">Do Rastreamento Veicular ao Palco Mundial</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title text-primary">12:00h — Prof. João Felipe</h5>
+                <p class="card-text">Do Silêncio à Plataforma</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title text-primary">14:00h — Prof. Esdras</h5>
+                <p class="card-text">De Relutante em Java a Pioneiro em IA Automotiva</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title text-primary">15:00h — Prof. David</h5>
+                <p class="card-text">Programação Após os 30</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    
 
     <!-- Feito por João Felipe - Seção Palestrantes -->
     <section id="palestrantes">

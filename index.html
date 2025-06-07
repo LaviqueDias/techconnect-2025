@@ -358,16 +358,17 @@
   
   <!--  Card Destaque grey-->
 
-   <section class="relative w-full items-center justify-center mx-auto bg-gray-100">
-  <div class="max-w-7xl mx-auto text-center py-12">
+ <section id="destaques" class="relative w-full bg-gray-100 py-16 px-4">
+  <div class="max-w-7xl mx-auto text-center">
     <h1 class="text-4xl font-bold mb-4">Atividades do TechConnect 2025</h1>
-    <p class="text-lg text-gray-600">
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto">
       Explore as experiências imersivas e inovadoras que preparamos para você no maior evento de tecnologia da região.
     </p>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-    <article class="bg-white shadow-xl rounded-2xl overflow-hidden transition-transform hover:scale-105">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto mt-12">
+    <!-- Hackathons -->
+    <article class="bg-white shadow-xl rounded-2xl overflow-hidden transition-transform duration-300 hover:scale-105">
       <img
         class="w-full h-60 object-cover"
         src="./assets/images/hackathon.jpg"
@@ -379,7 +380,8 @@
       </div>
     </article>
 
-    <article class="bg-white shadow-xl rounded-2xl overflow-hidden transition-transform hover:scale-105">
+    <!-- Games -->
+    <article class="bg-white shadow-xl rounded-2xl overflow-hidden transition-transform duration-300 hover:scale-105">
       <img
         class="w-full h-60 object-cover"
         src="./assets/images/games.jpg"
@@ -391,8 +393,8 @@
       </div>
     </article>
 
-
-    <article class="bg-white shadow-xl rounded-2xl overflow-hidden transition-transform hover:scale-105">
+    <!-- Palestras & Workshops -->
+    <article class="bg-white shadow-xl rounded-2xl overflow-hidden transition-transform duration-300 hover:scale-105">
       <img
         class="w-full h-60 object-cover"
         src="./assets/images/eventos-de-tecnologia.webp"
@@ -406,28 +408,26 @@
   </div>
 </section>
 
+
   
   <!--  Patrocinadores - Lavique white-->
 
   <section id="patrocinadores" class="py-12 bg-white">
-    <div class="container mx-auto px-4">
-  
-      <h2 class="text-3xl font-bold text-gray-900 text-center mb-10 uppercase">
-        Patrocinadores
-      </h2>
-  
-      <div class="flex flex-wrap justify-around items-center gap-20 py-10">
-        
-        <img src="assets/images/space-x-logo.png" alt="spacex" class="h-16 object-contain" />
-        <img src="assets/images/logo_redecompras_-_site_solides.png_name_20230619-11097-1o2fjtv.png" alt="rede-compras" class="h-16 object-contain" />
-        <img src="assets/images/aws.svg.png" alt="aws" class="h-16 object-contain" />
-        <img src="assets/images/lindo-olhar.png" alt="lindo-olhar" class="h-16 object-contain" />
-        <img src="assets/images/microsoft_logo_icon_168102.webp" alt="microsoft" class="h-16 object-contain" />
-  
-      </div>
-  
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-gray-900 text-center mb-10 uppercase">
+      Patrocinadores
+    </h2>
+
+    <div class="grid grid-cols-2 py-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 items-center justify-items-center">
+      <img src="assets/images/space-x-logo.png" alt="spacex" class="h-12 sm:h-16 object-contain" />
+      <img src="assets/images/logo_redecompras_-_site_solides.png_name_20230619-11097-1o2fjtv.png" alt="rede-compras" class="h-12 sm:h-16 object-contain" />
+      <img src="assets/images/aws.svg.png" alt="aws" class="h-12 sm:h-16 object-contain" />
+      <img src="assets/images/lindo-olhar.png" alt="lindo-olhar" class="h-12 sm:h-16 object-contain" />
+      <img src="assets/images/microsoft_logo_icon_168102.webp" alt="microsoft" class="h-12 sm:h-16 object-contain" />
     </div>
-  </section>
+  </div>
+</section>
+
   
   
   <!-- Fale Conosco -->
